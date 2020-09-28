@@ -207,3 +207,9 @@ input + svg {
 	font-size: 0.9rem;
 	line-height: 1.3em;
 }
+
+.temLabels {
+	color: white;
+	border: 1px solid white;
+	margin: 2px;
+}
