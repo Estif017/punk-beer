@@ -4,10 +4,12 @@ import { FilterCard } from './Components/FilterCard';
 
 const App = () => {
 	return (
-		<div className='container'>
+		<>
 			<header>Punk API Beer App</header>
-			<FilterCard />
-		</div>
+			<div className='container'>
+				<FilterCard />
+			</div>
+		</>
 	);
 };
 
