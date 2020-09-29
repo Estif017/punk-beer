@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Fettching from './Components/fettching';
+import { FilterCard } from './Components/FilterCard';
 
 const App = () => {
 	return (
 		<div className='container'>
-			<Fettching />
+			<header>Punk API Beer App</header>
+			<FilterCard />
 		</div>
 	);
 };
